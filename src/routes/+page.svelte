@@ -3,23 +3,17 @@
 <section>
   <h2>2023 - de TV im TV</h2>
 
-  <div style="max-width: 640px">
-    <div
-      style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"
-    >
-      <iframe
-        src="https://tvnussbaumen.sharepoint.com/sites/TurnvereinNussbaumen/_layouts/15/embed.aspx?UniqueId=a681b16c-402e-451a-b8f6-2ef36deab8f9&embed=%7B%22hvm%22%3Atrue%2C%22ust%22%3Atrue%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create"
-        width="640"
-        height="360"
-        frameborder="0"
-        class="rounded-md shadow-md"
-        scrolling="no"
-        allowfullscreen
-        title="De TV im TV - Turnunterhaltung Nussbaumen 2023"
-        style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"
-      ></iframe>
-    </div>
+  <div class="flex justify-center items-center">
+    <iframe
+      src="https://www.youtube.com/embed/RqCrL-hqRKE?si=wCdU0gcmz7E_1EnW"
+      title="de TV im TV"
+      class="rounded-md shadow-md h-[12rem] sm:h-[18rem] md:h-[24rem] lg:h-[30rem] xl:h-[36rem] 2xl:h-[42rem] max-w-[100%] w-[90%] md:w-[75%] lg:w-[75%] xl:w-[75%] 2xl:w-[75%]"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
   </div>
+
   <br />
   <button class="group bg-tvbluelight hover:bg-tvblue px-3 py-2 rounded-md">
     <a
