@@ -5,12 +5,12 @@
 
   <div class="flex justify-center items-center">
     <iframe
-      src="https://www.youtube.com/embed/RqCrL-hqRKE?si=wCdU0gcmz7E_1EnW"
-      title="de TV im TV"
+      src="https://player.vimeo.com/video/931463354?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
       class="rounded-md shadow-md h-[12rem] sm:h-[18rem] md:h-[24rem] lg:h-[30rem] xl:h-[36rem] 2xl:h-[42rem] max-w-[100%] w-[90%] md:w-[75%] lg:w-[75%] xl:w-[75%] 2xl:w-[75%]"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      referrerpolicy="strict-origin-when-cross-origin"
-      allowfullscreen
+      title="De TV im TV"
+      frameborder="0"
+      height="100%"
+      width="100%"
     ></iframe>
   </div>
 
