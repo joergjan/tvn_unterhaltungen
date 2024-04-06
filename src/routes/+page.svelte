@@ -10,12 +10,12 @@
       <iframe
         src="https://tvnussbaumen.sharepoint.com/sites/TurnvereinNussbaumen/_layouts/15/embed.aspx?UniqueId=a681b16c-402e-451a-b8f6-2ef36deab8f9&embed=%7B%22hvm%22%3Atrue%2C%22ust%22%3Atrue%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create"
         width="640"
-        class="rounded-md shadow-lg"
         height="360"
         frameborder="0"
+        class="rounded-md shadow-md"
         scrolling="no"
         allowfullscreen
-        title="De TV im TV - Turnunterhaltung TV Nussbaumen 2023"
+        title="De TV im TV - Turnunterhaltung Nussbaumen 2023"
         style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"
       ></iframe>
     </div>
