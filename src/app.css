@@ -4,9 +4,8 @@
 
 @layer base {
   html {
-    @apply text-gray-800;
     font-family: "Montserrat", sans-serif;
-    @apply font-normal;
+    @apply font-normal text-white bg-gray-800;
     @apply selection:bg-tvblue selection:text-white;
   }
 }
