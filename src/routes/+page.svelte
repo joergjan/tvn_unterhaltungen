@@ -15,12 +15,29 @@
   </div>
 
   <br />
-  <button class="group bg-tvbluelight hover:bg-tvblue px-3 py-2 rounded-md">
-    <a
-      href="https://tvnussbaumen.sharepoint.com/:v:/s/TurnvereinNussbaumen/EWyxgaYuQBpFuPYu823quPkByRAxKzadVV2d7NztOf7NZQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=SVUzVb&download=1"
-      target="_blank"
-    >
-      <p class="group-hover:scale-105">Download (10Gb)</p>
-    </a>
-  </button>
+  <div class="md:flex md:items-center md:gap-3 md:justify-center">
+    <div class="flex items-center justify-center">
+      <button
+        class="group bg-tvbluelight hover:bg-tvblue px-3 py-2 rounded-md flex"
+      >
+        <a
+          href="https://tvnussbaumen.sharepoint.com/:v:/s/TurnvereinNussbaumen/EWyxgaYuQBpFuPYu823quPkByRAxKzadVV2d7NztOf7NZQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=SVUzVb&download=1"
+          target="_blank"
+        >
+          <p class="group-hover:scale-105">Download high res (10Gb)</p>
+        </a>
+      </button>
+    </div>
+    <br />
+    <div class="flex items-center justify-center">
+      <button class="group bg-tvbluelight hover:bg-tvblue px-3 py-2 rounded-md">
+        <a
+          href="https://tvnussbaumen.sharepoint.com/:v:/s/TurnvereinNussbaumen/EVrsoSiXK51EswOkgc14kjAB0Vcdn8D5HejPxFdNrmLjCg?e=k883Pn&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&download=1"
+          target="_blank"
+        >
+          <p class="group-hover:scale-105">Download low res (500Mb)</p>
+        </a>
+      </button>
+    </div>
+  </div>
 </section>
