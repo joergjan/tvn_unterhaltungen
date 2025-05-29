@@ -3,108 +3,95 @@
 @tailwind utilities;
 
 @layer base {
-  html {
-    font-family: "Montserrat", sans-serif;
-    @apply font-normal text-white bg-gray-800 text-center;
-    @apply selection:bg-tvblue selection:text-white;
-  }
-}
-/* 
-//
-//
-//
-		Image Galery
-//
-*/
 
-.stopScroll {
-  @apply h-full overflow-hidden;
-}
+	html {
+		font-family: "Montserrat", sans-serif;
+		@apply selection:bg-tvbluelight selection:text-white
+	}
+	:root {
+		--background: 0 0% 100%;
+		--foreground: 20 14.3% 4.1%;
+	 
+		--muted: 60 4.8% 95.9%;
+		--muted-foreground: 25 5.3% 44.7%;
+	 
+		--popover: 0 0% 100%;
+		--popover-foreground: 20 14.3% 4.1%;
+	 
+		--card: 0 0% 100%;
+		--card-foreground: 20 14.3% 4.1%;
+	 
+		--border: 20 5.9% 90%;
+		--input: 20 5.9% 90%;
+	 
+		--primary: 24 9.8% 10%;
+		--primary-foreground: 60 9.1% 97.8%;
+	 
+		--secondary: 60 4.8% 95.9%;
+		--secondary-foreground: 24 9.8% 10%;
+	 
+		--accent: 60 4.8% 95.9%;
+		--accent-foreground: 24 9.8% 10%;
+	 
+		--destructive: 0 72.22% 50.59%;
+		--destructive-foreground: 60 9.1% 97.8%;
+	 
+		--ring: 20 14.3% 4.1%;
+	 
+		--radius: 0.5rem;
+	}
 
-/* 
-//
-//
-//
-		layout / menu
-//
-*/
+	.dark {
+		--background: 222.2 84% 7%;
+		--foreground: 210 40% 95%;
 
-.burgerMenu {
-  @apply active:rotate-45 inline-flex items-center justify-center rounded-md p-2 active:text-gray-300;
-}
+		--muted: 217.2 32.7% 17.5%;
+		--muted-foreground: 215 20.2% 75.1%;
 
-/* 
-//
-//
-//
-		hover, buttons, badges
-//
-*/
+		--popover: 222.2 84% 4.9%;
+		--popover-foreground: 210 40% 98%;
 
-.button-gray {
-  @apply inline-flex items-center;
-  @apply border-gray-300 border rounded-md;
-  @apply shadow-sm hover:bg-gray-100;
-}
+		--card: 222.2 84% 7%;
+		--card-foreground: 210 40% 98%;
 
-.badge-blue {
-  @apply inline-flex items-center;
-  @apply bg-tvbluelight text-white rounded-2xl hover:bg-tvblue;
-}
+		--border: 217.2 32.7% 17.5%;
+		--input: 217.2 32.7% 17.5%;
 
-.hover {
-  @apply hover:text-gray-400;
-}
+		--primary: 210 40% 98%;
+		--primary-foreground: 222.2 47.4% 11.2%;
 
-.hover-scale {
-  @apply hover:scale-102;
-}
+		--secondary: 217.2 32.7% 17.5%;
+		--secondary-foreground: 210 40% 98%;
 
-.link {
-  @apply text-tvbluelight hover:text-tvblue underline font-normal text-lg;
-}
+		--accent: 217.2 32.7% 17.5%;
+		--accent-foreground: 210 40% 98%;
 
-/* 
-//
-//
-//
-		fonts and titles
-//
-*/
+		--destructive: 0 72.8% 30.7%;
+		--destructive-foreground: 210 40% 98%;
 
-h1 {
-  @apply pb-5 md:pt-5 text-3xl tracking-wide;
-}
+		--ring: 212.7 27.8% 83.9%;
 
-h2 {
-  @apply text-2xl pb-3;
+		--radius: 0.5rem;
+	}
 }
 
-h3 {
-  @apply text-xl;
-}
-
-h4 {
-  @apply text-lg;
-}
-
-h1,
-h2,
-h3,
-h4 {
-  @apply font-bold uppercase hyphens-auto;
-}
-
-p {
-  @apply hyphens-auto;
-}
-
-select,
-input,
-textarea {
-  @apply border-2 rounded-md py-1 px-2 border-gray-200 shadow-sm;
-}
-
-mark {
-  @apply bg-tvblue text-white;
+@layer base {
+	* {
+		@apply border-border;
+	}
+	html {
+		@apply bg-background text-foreground;
+	}
+	h1 {
+		@apply mt-2 text-pretty text-4xl font-semibold tracking-tight sm:text-5xl
+	}
+	h2 {
+		@apply	font-bold text-xl mb-4 mt-6
+	}
+	h3 {
+		@apply font-bold text-lg mb-2 mt-5
+	}
+	h4 {
+		@apply text-tvbluelight text-base/7 font-semibold
+	}
 }
